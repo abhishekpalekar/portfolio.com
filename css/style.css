@@ -1,0 +1,364 @@
+
+*{
+    padding:0;
+	margin:0;
+}
+nav{
+	background-color:white;
+}
+.navbar .navbar-nav{
+    font-weight:bold;
+    font-size:14px;
+	font-family: 'Quicksand', sans-serif;
+}
+.navbar .navbar-nav li a:hover{
+	color: #8490ff !important;
+}
+.brand{
+	font-family:bold;
+}
+.banner-area{
+	height:auto;
+	font-family: 'Montserrat', sans-serif;	
+	display: flex;
+	background-color: #f9f9ff;
+}
+.banner-area h6{
+	padding-top:170px;
+}
+.banner-area h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	font-size:70px;
+	padding:14px 0px;
+	
+}
+.banner-area p{
+	color: #777777;
+	font-size:15px;
+}
+.banner-area .btn{
+	padding:8px 15px;
+	background-image:linear-gradient(to right, #5d6dfd, #63bcfc);
+	box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+	color:white;
+	font-size:14px;
+	border:none;
+}	
+
+/***********ABOUT ME***********/
+.about-area{
+	height:auto;
+	padding:100px 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+.about-area h6{
+	text-transform: uppercase;
+	padding-top:150px;
+}
+.about-area h1{
+	text-transform: uppercase;
+	font-weight:bolder;
+	padding: 16px 0px;
+}
+.about-area p{
+	color: #777777;
+	font-size:15px;
+}
+.about-area .btn{
+	padding:8px 15px;
+	background-image:linear-gradient(to right, #5d6dfd, #63bcfc);
+	box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+	color:white;
+	font-size:14px;
+	border:none;
+}
+.about-area img, .info img{
+	margin-left:30px;
+	border:15px rgba(223, 223, 223, 0.5) solid;
+	border-radius:10px;
+}
+
+/* **********SERVICES********** */
+.services-area{
+	height:auto;
+	padding:100px 0px;
+	background-color: #f9f9ff;
+	font-family: 'Montserrat', sans-serif;
+}
+.services-area h1{
+	text-align: center;
+	font-weight:bolder;
+	padding:16px 0px 0px;
+}
+.services-area p{
+	text-align:center;
+	font-size:15px;
+	color: #777777;
+	padding-bottom:20px;
+}
+.web{
+	color:black;
+	border-radius: 5px;
+}
+.web h4{
+	padding:20px 0px;
+	font-weight:bold;
+	font-size:19px;
+}
+.web p{
+	color: #777777;
+	font-size:15px;
+}
+.web:hover{
+	color:#8490ff;
+	cursor: pointer;
+}
+
+/* **********SKILLS********** */
+.skills-area{
+	height:100vh;
+	font-family: 'Montserrat', sans-serif;
+}
+.skills-area h1{
+	font-weight:bolder;
+	padding:16px 0px;
+}
+.skills-area p{
+	color: #777777;
+	font-size:15px;
+}
+.skills-area .row{
+	padding:140px 0px;
+}
+
+/* **********WORKS********* */
+.slider{
+	height:auto;
+	font-family: 'montserrat', sans-serif;
+	text-align: center;
+	background-color: #f9f9ff;	
+	padding:80px 0px;
+	overflow: hidden;
+}
+.slider h1{
+	font-weight:bolder;
+	padding:16px 0px 0px;
+}
+.slider h4{
+	font-weight:bold;
+	font-size:19px;	
+	padding-top:20px;
+}
+.slider p{
+	color: #777777;
+	font-size:15px;	
+	font-family: 'Quicksand', sans-serif;
+	padding:0px 150px;
+}
+
+/* **********FOOTER********** */
+.footer-area{
+	height:auto;
+	background-color: #04091e;
+	padding:80px 0px;
+	font-family: 'poppins', sans-serif;
+}
+.footer-area h5{
+	color:#ffff;
+	font-size:17px;
+	padding-bottom: 20px;
+}
+.footer-area p {
+	color: #777777;
+	font-size:14px;
+}
+.footer-area .form-control{
+	width: 80% !important;
+	font-size:14px;
+	height:38px;
+	border-radius: 6px;
+}
+.footer-area .social-icons a{
+	margin-left:15px;
+	color:#fff;
+}
+.footer-area .social-icons a:hover{
+	color:#8490ff;
+}
+
+
+/* ############################## 
+		ABOUT PAGE
+ ############################## */
+
+ .banner{
+	background-image:linear-gradient(to right, #5d6dfd, #63bcfc);
+	height:280px;
+	font-family: 'poppins', sans-serif;
+	/* display:flex;
+	align-items: center;
+	justify-content: center;  */
+	display: grid;
+	place-items: center;
+}
+ .banner h1{
+	 font-weight:600;
+	 font-size:50px;
+ }
+ .banner a{
+	 color:#fff;
+	 font-size:14px;
+ }
+ .banner a:hover{
+	color:#fff;
+	text-decoration: none;
+}
+.about-section{
+	height:auto;
+	padding:80px 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+.about-section h1{
+	text-transform: uppercase;
+	font-weight:bolder;
+	padding-bottom:16px;
+}
+.about-section p{
+	color: #777777;
+	font-size:15px;
+}
+.about-section .info{
+	margin-top:60px;
+}
+.about-section .info-text, .info-detail{
+	margin-top:100px;
+}
+.about-section .info-text ul li{
+	list-style:none;
+	font-weight:bold;
+	padding-bottom:25px;
+}
+.about-section .info-detail ul li{
+	list-style:none;
+	padding-bottom:25px;
+	color: #777777;
+}
+
+.about-section .btn{
+	padding:8px 15px;
+	background-image:linear-gradient(to right, #5d6dfd, #63bcfc);
+	box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+	color:white;
+	font-size:14px;
+	border:none;
+	font-family: 'Montserrat', sans-serif;
+	margin-top:15px;
+}
+
+
+/* ############################## 
+		CONTACT PAGE
+ ############################## */
+
+ .contact-page{
+	font-family: 'poppins', sans-serif;
+	padding-bottom: 100px;
+ }
+ .contact-page .map{
+	padding:100px 0px;
+ }
+ .contact-page h5{
+	font-size:15px;
+	font-weight:normal;
+ }
+ .contact-page p{
+	color: #777777;
+	font-size:14px;
+ }
+ .contact-page input{
+	 width:100%;
+	 padding:15px;
+	 font-size:15px;
+ }
+ .contact-page textarea{
+	width:100%;
+	height:100%;
+	padding:15px;
+	font-size:14px;
+}
+.contact-page .btn{
+	background-image:linear-gradient(to right, #5d6dfd, #63bcfc);
+	box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+	color:white;
+	font-size:14px;
+	border:none;
+	font-family: 'Montserrat', sans-serif;
+	padding:8px 15px;
+ }
+ .contact-page .icon{
+	 padding:6px 25px 0 0;
+ }
+
+
+/* 
+********************
+	 ANIMATION
+******************** */
+.banner-area h1{
+	animation-delay: 500ms;
+}
+.banner-area p{
+	animation-delay: 1000ms;
+}
+.banner-area a{
+	animation-delay: 1500ms;
+}
+#serv-animation-2{
+	animation-delay: 500ms;
+}
+#serv-animation-3{
+	animation-delay: 1000ms;
+}
+#form-animation-2{
+	animation-delay: 500ms;
+}
+#form-animation-3{
+	animation-delay: 1000ms;
+}
+ #img-animation, #about-animation, #serv-animation-1, #serv-animation-2, #serv-animation-3, #skl-animation-1, #skl-animation-2, #skl-animation-3, 
+ #skl-animation-4, #skl-animation-5, #form-animation-1, #form-animation-2, #form-animation-3{
+	 opacity: 0;
+ }
+ #img-animation .animated, #about-animation .animated, #serv-animation-1 .animated, #serv-animation-2 .animated, #serv-animation-3 .animated, 
+ #skl-animation-1 .animated, #skl-animation-2 .animated, #skl-animation-3 .animated, #skl-animation-4 .animated, #skl-animation-5 .animated,
+ #form-animation-1 .animated, #form-animation-2 .animated, #form-animation-3 .animated{
+	opacity: 1;
+}
+
+/* ********************
+	MEDIA QUERY
+******************** */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.about-area img{
+		align-items: center;
+	}
+
+	.skills-area{
+		height:auto;
+	}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
